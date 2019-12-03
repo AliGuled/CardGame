@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    //@State private var showQabil = true
+ 
     var body: some View {
-        Text("Hello World")
+       
+        VStack {
+            TopView()
+                .edgesIgnoringSafeArea(.all)
+            ScrollView(.horizontal, showsIndicators: false) {
+                
+                    HStack(spacing: 10) {
+                        CardOne(hide: .constant(false))
+                        CardTwo()
+                        CardThree()
+                       
+                           
+                    }.frame(maxWidth: .infinity)
+                Spacer(minLength: 5)
+            }
+        }
     }
 }
 

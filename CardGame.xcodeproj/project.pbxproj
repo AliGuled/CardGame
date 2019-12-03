@@ -13,6 +13,17 @@
 		EB539C912394072F0005FF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB539C902394072F0005FF74 /* Assets.xcassets */; };
 		EB539C942394072F0005FF74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB539C932394072F0005FF74 /* Preview Assets.xcassets */; };
 		EB539C972394072F0005FF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB539C952394072F0005FF74 /* LaunchScreen.storyboard */; };
+		EB539C9F2394079B0005FF74 /* CardOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB539C9E2394079B0005FF74 /* CardOne.swift */; };
+		EB539CA123940A7E0005FF74 /* CardTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB539CA023940A7E0005FF74 /* CardTwo.swift */; };
+		EB539CA323940AEB0005FF74 /* CardThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB539CA223940AEB0005FF74 /* CardThree.swift */; };
+		EB539CA5239415E80005FF74 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB539CA4239415E80005FF74 /* TopView.swift */; };
+		EBA661612394BF29009279FD /* SupportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA661602394BF29009279FD /* SupportButton.swift */; };
+		EBA661632394C7AE009279FD /* InformationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA661622394C7AE009279FD /* InformationButton.swift */; };
+		EBCD92692394E20F00C2F62A /* CardOnePlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD92682394E20F00C2F62A /* CardOnePlusButton.swift */; };
+		EBCD926B2394E77F00C2F62A /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD926A2394E77F00C2F62A /* ImageView.swift */; };
+		EBCD926D2394E8D600C2F62A /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD926C2394E8D600C2F62A /* CameraButton.swift */; };
+		EBCD926F2394EE2C00C2F62A /* NameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD926E2394EE2C00C2F62A /* NameTextField.swift */; };
+		EBCD927123953BC200C2F62A /* FindButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD927023953BC200C2F62A /* FindButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		EB539C932394072F0005FF74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB539C962394072F0005FF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB539C982394072F0005FF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB539C9E2394079B0005FF74 /* CardOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOne.swift; sourceTree = "<group>"; };
+		EB539CA023940A7E0005FF74 /* CardTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTwo.swift; sourceTree = "<group>"; };
+		EB539CA223940AEB0005FF74 /* CardThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardThree.swift; sourceTree = "<group>"; };
+		EB539CA4239415E80005FF74 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		EBA661602394BF29009279FD /* SupportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportButton.swift; sourceTree = "<group>"; };
+		EBA661622394C7AE009279FD /* InformationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationButton.swift; sourceTree = "<group>"; };
+		EBCD92682394E20F00C2F62A /* CardOnePlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOnePlusButton.swift; sourceTree = "<group>"; };
+		EBCD926A2394E77F00C2F62A /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		EBCD926C2394E8D600C2F62A /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		EBCD926E2394EE2C00C2F62A /* NameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextField.swift; sourceTree = "<group>"; };
+		EBCD927023953BC200C2F62A /* FindButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,17 @@
 				EB539C8A2394072D0005FF74 /* AppDelegate.swift */,
 				EB539C8C2394072D0005FF74 /* SceneDelegate.swift */,
 				EB539C8E2394072D0005FF74 /* ContentView.swift */,
+				EBCD926A2394E77F00C2F62A /* ImageView.swift */,
+				EBCD926E2394EE2C00C2F62A /* NameTextField.swift */,
+				EB539C9E2394079B0005FF74 /* CardOne.swift */,
+				EBCD92682394E20F00C2F62A /* CardOnePlusButton.swift */,
+				EB539CA023940A7E0005FF74 /* CardTwo.swift */,
+				EB539CA223940AEB0005FF74 /* CardThree.swift */,
+				EB539CA4239415E80005FF74 /* TopView.swift */,
+				EBA661622394C7AE009279FD /* InformationButton.swift */,
+				EBCD927023953BC200C2F62A /* FindButton.swift */,
+				EBA661602394BF29009279FD /* SupportButton.swift */,
+				EBCD926C2394E8D600C2F62A /* CameraButton.swift */,
 				EB539C902394072F0005FF74 /* Assets.xcassets */,
 				EB539C952394072F0005FF74 /* LaunchScreen.storyboard */,
 				EB539C982394072F0005FF74 /* Info.plist */,
@@ -146,9 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCD92692394E20F00C2F62A /* CardOnePlusButton.swift in Sources */,
+				EBCD926F2394EE2C00C2F62A /* NameTextField.swift in Sources */,
+				EBA661632394C7AE009279FD /* InformationButton.swift in Sources */,
+				EB539CA5239415E80005FF74 /* TopView.swift in Sources */,
+				EB539C9F2394079B0005FF74 /* CardOne.swift in Sources */,
+				EBCD926B2394E77F00C2F62A /* ImageView.swift in Sources */,
+				EB539CA123940A7E0005FF74 /* CardTwo.swift in Sources */,
+				EB539CA323940AEB0005FF74 /* CardThree.swift in Sources */,
 				EB539C8B2394072D0005FF74 /* AppDelegate.swift in Sources */,
 				EB539C8D2394072D0005FF74 /* SceneDelegate.swift in Sources */,
+				EBCD927123953BC200C2F62A /* FindButton.swift in Sources */,
 				EB539C8F2394072D0005FF74 /* ContentView.swift in Sources */,
+				EBCD926D2394E8D600C2F62A /* CameraButton.swift in Sources */,
+				EBA661612394BF29009279FD /* SupportButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
